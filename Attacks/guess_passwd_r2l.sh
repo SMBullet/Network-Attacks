@@ -9,7 +9,7 @@ cd guess_passwd
 # Check if wordlist exists
 if [ ! -f ourwordlist.txt ]; then
     # If not, download
-    wget https://github.com/SMBullet/wordlists/ourwordlist.txt    #our wordlist
+    wget https://raw.githubusercontent.com/SMBullet/Network-Attacks/main/Wordlists/ourwordlist.txt    #our wordlist
 fi
 
 # Install Hydra if not already installed
